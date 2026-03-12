@@ -3,6 +3,9 @@
 ## Autora
 YARITZA CRUSTHEL MORA QUIJIJE
 
+## Public IPv4 address
+52.3.226.207
+
 ## Descripción del proyecto
 Breve explicación del sitio web.  
 Este proyecto consiste en el desarrollo de una boutique online de accesorios femeninos donde se muestran productos como collares, pulseras, anillos, aretes y sets de joyería.  
