@@ -80,7 +80,13 @@ Tecnologías utilizadas en el servidor:
 
 7. Verificación del funcionamiento del sitio web en el navegador utilizando la dirección IP pública de la instancia.  
 
-![Captura de pantalla](img/captura 7.png)
+![Captura de pantalla](img/CAPTURA7.png)
+![Captura de pantalla](img/CAPTURA8.png)
+![Captura de pantalla](img/CAPTURA9.png)
+![Captura de pantalla](img/CAPTURA10.png)
+![Captura de pantalla](img/CAPTURA11.png)
+![Captura de pantalla](img/CAPTURA12.png)
+![Captura de pantalla](img/CAPTURA13.png)
 
 ## Resultado
 Explicar brevemente que el sitio web funciona correctamente y puede visualizarse desde el navegador mediante la IP pública del servidor.
