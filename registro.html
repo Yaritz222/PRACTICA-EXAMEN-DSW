@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - Bella Joyería</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Bella Joyería</h1>
+            <p class="tagline">Accesorios que iluminan tu estilo</p>
+        </div>
+    </header>
+
+    <!-- Navegación -->
+    <nav class="nav">
+        <div class="container">
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Inicio</a></li>
+                <li><a href="productos.html" class="nav-link">Productos</a></li>
+                <li><a href="contacto.html" class="nav-link">Contacto</a></li>
+                <li><a href="registro.html" class="nav-link active">Registro</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contenido principal -->
+    <main class="main">
+        <div class="container">
+            <h1 class="page-title">Registro de Clientes</h1>
+            
+            <!-- Sección de bienvenida -->
+            <section class="welcome-section">
+                <div class="welcome-content">
+                    <h2 class="section-title">Únete a Bella Joyería</h2>
+                    <p class="welcome-text">
+                        Regístrate en nuestra boutique online y disfruta de beneficios exclusivos:
+                    </p>
+                    <ul class="benefits-list">
+                        <li>10% de descuento en tu primera compra</li>
+                        <li>Acceso anticipado a nuevas colecciones</li>
+                        <li>Ofertas especiales para miembros</li>
+                        <li>Envío gratuito en pedidos mayores a $100</li>
+                        <li>Programa de lealtad con puntos acumulables</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Formulario de registro -->
+            <section class="registration-section">
+                <div class="form-container">
+                    <h2 class="form-title">Crear Cuenta</h2>
+                    <form class="registration-form" id="registrationForm">
+                        <!-- Información personal -->
+                        <fieldset class="form-fieldset">
+                            <legend class="fieldset-legend">Información Personal</legend>
+                            
+                            <div class="form-group">
+                                <label for="nombre" class="form-label">Nombre completo *</label>
+                                <input type="text" id="nombre" name="nombre" class="form-input" required 
+                                       placeholder="Ingresa tu nombre completo">
+                                <small class="form-help">Ej: María González López</small>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email" class="form-label">Correo electrónico *</label>
+                                <input type="email" id="email" name="email" class="form-input" required 
+                                       placeholder="tu@email.com">
+                                <small class="form-help">Usaremos este email para enviar tu confirmación</small>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="edad" class="form-label">Edad *</label>
+                                <input type="number" id="edad" name="edad" class="form-input" required 
+                                       min="18" max="100" placeholder="25">
+                                <small class="form-help">Debes ser mayor de 18 años para registrarte</small>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="telefono" class="form-label">Teléfono</label>
+                                <input type="tel" id="telefono" name="telefono" class="form-input" 
+                                       placeholder="+1 (555) 123-4567">
+                                <small class="form-help">Para notificaciones de pedidos</small>
+                            </div>
+                        </fieldset>
+
+                        <!-- Información de la cuenta -->
+                        <fieldset class="form-fieldset">
+                            <legend class="fieldset-legend">Información de la Cuenta</legend>
+                            
+                            <div class="form-group">
+                                <label for="password" class="form-label">Contraseña *</label>
+                                <input type="password" id="password" name="password" class="form-input" required 
+                                       minlength="8" placeholder="Mínimo 8 caracteres">
+                                <small class="form-help">Incluye letras, números y símbolos</small>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="confirm_password" class="form-label">Confirmar contraseña *</label>
+                                <input type="password" id="confirm_password" name="confirm_password" 
+                                       class="form-input" required placeholder="Repite tu contraseña">
+                                <small class="form-help">Ambas contraseñas deben coincidir</small>
+                            </div>
+                        </fieldset>
+
+                        <!-- Preferencias -->
+                        <fieldset class="form-fieldset">
+                            <legend class="fieldset-legend">Preferencias</legend>
+                            
+                            <div class="form-group">
+                                <label for="categoria_favorita" class="form-label">Categoría favorita</label>
+                                <select id="categoria_favorita" name="categoria_favorita" class="form-input">
+                                    <option value="">Selecciona tu categoría favorita</option>
+                                    <option value="collares">Collares</option>
+                                    <option value="pulseras">Pulseras</option>
+                                    <option value="anillos">Anillos</option>
+                                    <option value="aretes">Aretes</option>
+                                    <option value="sets">Sets de Joyería</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="newsletter" name="newsletter" class="checkbox-input">
+                                    <span class="checkbox-text">Deseo recibir ofertas y novedades por email</span>
+                                </label>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="terminos" name="terminos" class="checkbox-input" required>
+                                    <span class="checkbox-text">Acepto los términos y condiciones *</span>
+                                </label>
+                            </div>
+                        </fieldset>
+
+                        <!-- Botones de acción -->
+                        <div class="form-actions">
+                            <button type="submit" class="btn-submit">Crear Cuenta</button>
+                            <button type="reset" class="btn-reset">Limpiar Formulario</button>
+                        </div>
+
+                        <div class="form-footer">
+                            <p class="login-link">¿Ya tienes cuenta? <a href="#" class="link">Inicia sesión aquí</a></p>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Información de seguridad -->
+                <div class="security-info">
+                    <h3>Protección de tus Datos</h3>
+                    <p>En Bella Joyería tomamos la seguridad de tu información muy en serio:</p>
+                    <ul class="security-features">
+                        <li>Encriptación SSL en todas las transacciones</li>
+                        <li>Protección contra fraudes</li>
+                        <li>Política de privacidad estricta</li>
+                        <li>No compartimos tu información con terceros</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Bella Joyería. Todos los derechos reservados.</p>
+            <p>Tu boutique de confianza para accesorios femeninos</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript para validación del formulario -->
+    <script>
+        document.getElementById('registrationForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const password = document.getElementById('password').value;
+            const confirmPassword = document.getElementById('confirm_password').value;
+            
+            if (password !== confirmPassword) {
+                alert('Las contraseñas no coinciden. Por favor, verifica e intenta nuevamente.');
+                return;
+            }
+            
+            if (password.length < 8) {
+                alert('La contraseña debe tener al menos 8 caracteres.');
+                return;
+            }
+            
+            alert('¡Registro exitoso! Bienvenida a Bella Joyería.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
