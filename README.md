@@ -1,6 +1,8 @@
 # Bella Joyería - Sitio Web Ecommerce
 
 Un sitio web completo tipo ecommerce de accesorios femeninos, diseñado con HTML5, CSS3, Flexbox, CSS Grid y Responsive Design.
+![Captura del proyecto](img/captura 1.png)
+![Captura del proyecto](img/captura 2.png)
 
 ## 🎯 Objetivo
 
@@ -37,6 +39,8 @@ html-site/
 │           └── prod4.jpg
 ```
 
+![Captura del proyecto](img/captura 3.png)
+![Captura del proyecto](img/captura 4.png)
 ## 🎨 Características Técnicas
 
 ### CSS Implementado
@@ -72,6 +76,7 @@ html-site/
 - Grid de tarjetas de productos
 - Filtrado por categorías
 - Diseño de boutique elegante
+![Captura del proyecto](img/captura 5.png)
 
 ### contacto.html
 - Información completa de contacto
@@ -79,6 +84,7 @@ html-site/
 - Enlace mailto
 - Mapa de ubicación
 - Redes sociales
+![Captura del proyecto](img/captura 6.png)
 
 ### registro.html
 - Formulario de registro completo
@@ -86,6 +92,7 @@ html-site/
 - Campos: nombre, email, edad, contraseña
 - Beneficios de registro
 - Información de seguridad
+![Captura del proyecto](img/captura 7.png)
 
 ## 🎨 Diseño y Estilos
 
