@@ -1,20 +1,22 @@
-# Bella Joyería - Sitio Web Ecommerce
+# Boutique Online de Accesorios
 
-Un sitio web completo tipo ecommerce de accesorios femeninos, diseñado con HTML5, CSS3, Flexbox, CSS Grid y Responsive Design.
-![Captura del proyecto](img/CAPTURA1.png)
-![Captura del proyecto](img/CAPTURA2.png)
+## Autora
+YARITZA CRUSTHEL MORA QUIJIJE
 
-## 🎯 Objetivo
+## Descripción del proyecto
+Breve explicación del sitio web.  
+Este proyecto consiste en el desarrollo de una boutique online de accesorios femeninos donde se muestran productos como collares, pulseras, anillos, aretes y sets de joyería.  
+El sitio fue desarrollado utilizando tecnologías web modernas y diseño responsive para adaptarse a diferentes dispositivos.
 
-Crear una boutique online elegante y moderna para vender accesorios femeninos como:
-- Cadenas y collares
-- Pulseras
-- Anillos
-- Aretes
-- Sets de joyería
-- Accesorios de moda
+## Tecnologías utilizadas
+- HTML5  
+- CSS3  
+- Flexbox  
+- CSS Grid  
+- Responsive Design  
 
-## 📁 Estructura del Proyecto
+## Estructura del proyecto
+Explicar brevemente la estructura de carpetas del sitio web.
 
 ```
 html-site/
@@ -22,150 +24,65 @@ html-site/
 │── productos.html      # Catálogo de productos
 │── contacto.html       # Información de contacto
 │── registro.html       # Formulario de registro
-│── README.md          # Este archivo
+│── README.md          # Documentación del proyecto
 │
 ├── css/
 │     ├── style.css    # Estilos principales
 │     └── responsive.css # Estilos responsive
 │
-├── img/
-│     ├── README.md    # Instrucciones de imágenes
-│     ├── banner.jpg   # Banner principal
-│     ├── perfil.png   # Imagen de la tienda
-│     └── productos/   # Imágenes de productos
-│           ├── prod1.jpg
-│           ├── prod2.jpg
-│           ├── prod3.jpg
-│           └── prod4.jpg
+└── img/
+      ├── banner.jpg   # Banner principal
+      ├── logooo.avif # Logo de la boutique
+      └── productos/   # Imágenes de productos
+            ├── collar dorado
+            ├── pulsera.webp
+            ├── anillo.jpg
+            ├── aretes.jpg
+            ├── set.jpg
+            └── collar de perlas.webp
 ```
 
-![Captura del proyecto](img/CAPTURA3.png)
-![Captura del proyecto](img/CAPTURA4.png)
-## 🎨 Características Técnicas
+## Publicación del sitio en AWS
 
-### CSS Implementado
-- ✅ Selectores: etiqueta, clase, id
-- ✅ Selectores combinados: descendientes (nav a), hijos (main > section)
-- ✅ Pseudo-clases: :hover, :active, :first-child
-- ✅ Pseudo-elementos: ::before, ::after
+Explicar de forma clara y ordenada el proceso de publicación del sitio web utilizando Amazon Web Services.
 
-### Box Model y Flexbox
-- ✅ Tarjetas de productos con margin, padding, border, border-radius
-- ✅ Box-shadow para efectos de profundidad
-- ✅ Flexbox para alineación y distribución
-- ✅ Grid layout para productos
+Tecnologías utilizadas en el servidor:
 
-### Responsive Design
-- ✅ **Móvil (<768px)**: Menú vertical, 1 columna de productos
-- ✅ **Tablet (768–1023px)**: 2 columnas de productos
-- ✅ **Desktop (≥1024px)**: CSS Grid con múltiples columnas
-- ✅ Imágenes fluidas y sin scroll horizontal
+- Amazon Web Services (AWS)
+- Instancias EC2
+- Servidor LAMP (Linux, Apache, MySQL, PHP 8)
 
-## 📄 Páginas del Sitio
+### Proceso de implementación
 
-### index.html
-- Header con logo y navegación
-- Banner principal elegante
-- Sección introductoria sobre la boutique
-- Categorías destacadas
-- Etiquetas semánticas HTML5
+1. Creación de una instancia EC2 en Amazon Web Services.  
 
-### productos.html
-- Catálogo completo de productos
-- Tabla de productos con imágenes
-- Grid de tarjetas de productos
-- Filtrado por categorías
-- Diseño de boutique elegante
-![Captura del proyecto](img/CAPTURA5.png)
+![Captura de pantalla](img/CAPTURA1.png)
 
-### contacto.html
-- Información completa de contacto
-- Formulario de contacto funcional
-- Enlace mailto
-- Mapa de ubicación
-- Redes sociales
-![Captura del proyecto](img/CAPTURA6.png)
+2. Configuración del servidor LAMP con PHP 8 dentro de la instancia.  
 
-### registro.html
-- Formulario de registro completo
-- Validación de campos
-- Campos: nombre, email, edad, contraseña
-- Beneficios de registro
-- Información de seguridad
-![Captura del proyecto](img/captura 7.png)
+![Captura de pantalla](img/CAPTURA2.png)
 
-## 🎨 Diseño y Estilos
+3. Creación del usuario y configuración de la contraseña del servidor.  
 
-### Colores de Boutique
-- Blanco: #ffffff
-- Dorado: #d4af37
-- Rosa suave: #f8f9fa
-- Negro: #2c3e50
-- Gris: #7f8c8d
+![Captura de pantalla](img/CAPTURA3.png)
 
-### Tipografía
-- Fuente principal: Georgia (serif elegante)
-- Fuentes secundarias: system-ui para formularios
+4. Conexión al servidor para administrar los archivos del sitio.  
 
-### Efectos Visuales
-- Hover effects en botones y tarjetas
-- Transiciones suaves
-- Sombras elegantes
-- Gradientes sutiles
+![Captura de pantalla](img/CAPTURA4.png)
 
-## 🚀 Características Especiales
+5. Uso de la herramienta WinSCP para transferir los archivos del proyecto al servidor.  
 
-### Accesibilidad
-- Etiquetas semánticas HTML5
-- Atributos alt en imágenes
-- Navegación por teclado
-- Modo de reducción de movimiento
+![Captura de pantalla](img/CAPTURA5.png)
 
-### Optimización
-- CSS organizado por secciones
-- Media queries eficientes
-- Imágenes optimizadas
-- Sin scroll horizontal
+6. Copia de los archivos del sitio web a la carpeta del servidor web correspondiente.  
 
-### Interactividad
-- Formularios con validación
-- Botones con efectos hover
-- Navegación activa
-- Transiciones CSS
+![Captura de pantalla](img/CAPTURA6.png)
 
-## 📱 Responsive Breakpoints
+7. Verificación del funcionamiento del sitio web en el navegador utilizando la dirección IP pública de la instancia.  
 
-- **Móvil**: < 768px
-- **Tablet**: 768px - 1023px  
-- **Desktop**: ≥ 1024px
-- **Large Desktop**: ≥ 1440px
+![Captura de pantalla](img/captura 7.png)
 
-## 🔧 Tecnologías Utilizadas
+## Resultado
+Explicar brevemente que el sitio web funciona correctamente y puede visualizarse desde el navegador mediante la IP pública del servidor.
 
-- **HTML5**: Semántico y accesible
-- **CSS3**: Moderno con animaciones
-- **Flexbox**: Layout flexible
-- **CSS Grid**: Layout avanzado
-- **Responsive Design**: Mobile-first
-- **JavaScript**: Validación de formularios
-
-## 🌟 Características Destacadas
-
-1. **Diseño Elegante**: Estilo boutique moderno y sofisticado
-2. **Totalmente Responsive**: Funciona en todos los dispositivos
-3. **SEO Friendly**: Estructura semántica optimizada
-4. **Accesible**: Cumple con estándares WCAG
-5. **Rápido**: Optimizado para rendimiento
-6. **Profesional**: Calidad de producción lista
-
-## 📝 Notas de Implementación
-
-- Todos los archivos están completamente comentados
-- CSS organizado por secciones lógicas
-- Validación HTML5 y CSS3
-- Compatible con navegadores modernos
-- Fácil de personalizar y mantener
-
-## 🎯 Resultado Final
-
-Un sitio web ecommerce profesional que parece una boutique real de accesorios femeninos, con diseño elegante, moderno y completamente funcional.
+El sitio web ha sido implementado exitosamente en el servidor AWS EC2 y funciona correctamente en todos los navegadores modernos. La boutique online de accesorios femeninos es accesible a través de la dirección IP pública del servidor, mostrando todas sus funcionalidades incluyendo el catálogo de productos, formulario de contacto, registro de clientes y diseño responsive en diferentes dispositivos. El sitio mantiene su elegante diseño y todas las características interactivas funcionan perfectamente en el entorno de producción.
